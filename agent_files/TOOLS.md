@@ -1,0 +1,11 @@
+# TOOLS.md
+- **HTTP API** – Local REST server on port 9290 (`/api/status`, `/api/perceive`, `/api/commit`, …) for remote management.
+- **CLI** – `arkhe` command with subcommands (`status`, `perceive`, `sign`, `commit`, `serve`).
+- **gRPC** – Inter‑agent communication on port 8700, secured with PQC keys.
+- **Prometheus/Grafana** – Metrics ingestion and visualisation for operational data.
+- **Chrome MCP** – Interactive browser control via the DevTools bridge (926).
+- **QEMU** – Sandbox environment for VNF onboarding and testing (918).
+- **OWL Reasoner** – HermiT/Pellet integration for ontological inference (920).
+- **Atom‑Chip Photonic Interface** – Quantum entropy source (930).
+- **Ethereum Bridge** – Web3j/TemporalChain for on‑chain audit (923).
+- **Android HAL** – Direct sensor, camera, and GPS access when deployed on Android (929).
