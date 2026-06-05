@@ -1,0 +1,18 @@
+{
+    "substrates": {
+        "1074": {
+            "name": "DIGITAL_ASSET_CUSTODY_BRIDGE",
+            "version": "1.0.0",
+            "cross_links": [
+                954,
+                "989.z.4",
+                1055,
+                "1042.4",
+                "1064.2",
+                1066,
+                923
+            ],
+            "parent": 1042
+        }
+    }
+}
