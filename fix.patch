@@ -1,0 +1,11 @@
+--- cathedral-arkhe/intelligence/models/plastic_zkagi_v4.py
++++ cathedral-arkhe/intelligence/models/plastic_zkagi_v4.py
+@@ -786,7 +786,7 @@
+             'ethical_trend': [m['ethical_status'] for m in recent],
+             'domain_entropy_trend': [m['domain_entropy'] for m in recent],
+             'plasticity_events': int(self.plastic_layer.plasticity_events.item()),
+-            'temporal_phase': float(self.temporal_phase.mean()) if hasattr(self, 'temporal_phase') else 0.0,
++            'temporal_phase': float(self.temporal_phase.detach().mean()) if hasattr(self, 'temporal_phase') else 0.0,
+         }
+
+     def generate_seal(self) -> str:
